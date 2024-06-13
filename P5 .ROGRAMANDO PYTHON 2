@@ -1,0 +1,27 @@
+
+1. Implemente os códigos da aula:
+
+python
+# Código de exemplo 1: Operadores lógicos
+a = True
+b = False
+
+print("a and b:", a and b)
+print("a or b:", a or b)
+print("not a:", not a)
+```
+
+2. Agora, vamos criar a função para desenhar um triângulo de asteriscos com o número de linhas informado como parâmetro:
+
+python
+# Função para desenhar um triângulo de asteriscos
+def draw_triangle(lines):
+    for i in range(1, lines + 1):
+        print("*" * i)
+
+Testando a função com paran = 4
+draw_triangle(4)
+
+
+Junte esses dois trechos de código em um único arquivo Python no Spyder ou no IDLE. Quando executado, ele primeiro implementará os códigos da aula e, em seguida, desenhará um triângulo de asteriscos com o número de linhas especificado.
+

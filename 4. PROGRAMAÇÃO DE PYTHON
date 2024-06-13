@@ -1,0 +1,43 @@
+ os códigos de exemplo da apresentação no Spyder:
+
+```python
+# Código de exemplo 1: Operadores lógicos
+a = True
+b = False
+
+print("a and b:", a and b)
+print("a or b:", a or b)
+print("not a:", not a)
+```
+
+Agora, para descobrir a ordem de precedência dos operadores lógicos e indicá-la em um comentário no arquivo .py, precisamos entender que, em Python, a ordem de precedência dos operadores lógicos é a seguinte:
+
+1. `not`
+2. `and`
+3. `or`
+
+vamos adicionar um comentário no arquivo Python indicando isso:
+
+```python
+# Ordem de precedência dos operadores lógicos: not, and, or
+
+# Código de exemplo 1: Operadores lógicos
+a = True
+b = False
+
+print("a and b:", a and b)
+print("a or b:", a or b)
+print("not a:", not a)
+```
+
+Para modificar a ordem das operações lógicas, podemos usar parênteses para alterar a precedência. Por exemplo:
+
+```python
+# Código de exemplo 2: Modificando a ordem das operações lógicas
+a = True
+b = False
+c = True
+
+print("(a or b) and c:", (a or b) and c)
+```
+Neste exemplo, a expressão `(a or b)` será avaliada primeiro devido aos parênteses, e então o resultado será usado no operador `and` com `c`.

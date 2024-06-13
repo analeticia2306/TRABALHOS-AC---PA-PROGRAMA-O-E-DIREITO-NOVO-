@@ -1,0 +1,34 @@
+Para os dois primeiros tópicos, trata-se de formatos de arquivo:
+
+1. **Formato ODT (do ODF):**
+   ODT significa "Open Document Text", é um formato de arquivo de documento de texto que faz parte do padrão OpenDocument Format (ODF). O ODT é um formato de arquivo de documento de texto livre e aberto, comumente associado a programas de processamento de texto como o LibreOffice Writer e o OpenOffice Writer.
+
+2. **Formato DOCX:**
+   DOCX é um formato de arquivo de documento de texto introduzido pela Microsoft com o Microsoft Office 2007. É uma versão mais recente e XML-based do antigo formato .doc. O DOCX é o formato padrão para documentos do Word criados com o Microsoft Word a partir do Office 2007.
+
+Agora, sobre o XML:
+
+3. **O que é XML?**
+   XML significa "Extensible Markup Language". É uma linguagem de marcação semelhante ao HTML, mas que permite definir etiquetas de marcação personalizadas para descrever o conteúdo de um documento. XML é utilizado para armazenar e transportar dados de forma legível por máquina e independente de plataforma. Ele é amplamente utilizado em diversas áreas, incluindo web, comunicação entre sistemas, configuração de software e muitos outros.
+
+Para as linguagens de programação, vamos comparar Python, JavaScript e Java.
+
+a. **Python:**
+```python
+# Código mínimo em Python
+print("Olá, mundo!")
+```
+
+b. **JavaScript:**
+```javascript
+// Código mínimo em JavaScript
+console.log("Olá, mundo!");
+```
+
+c. **Java:**
+```java
+// Código mínimo em Java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Olá, mundo!");
+    

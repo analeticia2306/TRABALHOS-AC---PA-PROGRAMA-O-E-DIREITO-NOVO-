@@ -1,0 +1,58 @@
+Função para imprimir informações formatadas
+def imprimir_informacoes(nome, idade, cidade):
+    print("Nome:", nome, "-", "Idade:", idade, "-", "Cidade:", cidade + "!", sep=" ", end="\n")
+
+ Função para calcular operações matemáticas
+def calcular_operacao():
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    operacao = input("Digite a operação desejada (+, -, *, /): ")
+    
+    if operacao == '+':
+        resultado = num1 + num2
+    elif operacao == '-':
+        resultado = num1 - num2
+    elif operacao == '*':
+        resultado = num1 * num2
+    elif operacao == '/':
+        if num2 != 0:
+            resultado = num1 / num2
+        else:
+            resultado = "Divisão por zero não é possível!"
+    else:
+        resultado = "Operação inválida!"
+    
+    print("Resultado da operação:", resultado)
+
+ Função para criar lista de compras
+def criar_lista_compras():
+    itens = input("Digite os itens da lista de compras, separados por vírgula: ")
+    lista = itens.split(",")
+    for i, item in enumerate(lista, start=1):
+        print("Item", i, ":", item.strip())
+
+ Função para converter Celsius para Fahrenheit
+def celsius_para_fahrenheit():
+    celsius = float(input("Digite a temperatura em graus Celsius: "))
+    fahrenheit = (celsius * 9/5) + 32
+    print("Temperatura em Fahrenheit:", fahrenheit)
+
+ Função para pedir nomes até "sair" ser digitado
+def pedir_nomes():
+    nomes = []
+    while True:
+        nome = input("Digite um nome (ou 'sair' para terminar): ")
+        if nome.lower() == 'sair':
+            break
+        nomes.append(nome)
+    
+    print("Nomes digitados:")
+    for nome in nomes:
+        print(nome)
+
+ Testando as funções
+imprimir_informacoes("Alice", 25, "São Paulo")
+calcular_operacao()
+criar_lista_compras()
+celsius_para_fahrenheit()
+pedir_nomes()
